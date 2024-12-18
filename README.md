@@ -53,14 +53,32 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 ---
 
 ### 3. **Predicting Significant Wave Heights**
-- **Description**: Build a regression model to predict significant wave heights based on environmental and oceanic conditions. Perform	data preprocessing and EDA, feature engineering, model selection and evaluation with performance metrics.
+- **Description**:
+  - Built a regression model to predict significant wave heights (Hsig) based on environmental and oceanic conditions.
+  - The project involved data preprocessing, feature engineering, model selection, and evaluation using performance metrics. 
 - **Technologies**: Python, Pandas, Scikit-learn, Matplotlib
+- **Data**: Hsig (wave height), Temperature, Wind Speed, Wave Direction, Depth, and seasonal/categorical features.
+- **Approach**:
+  - Preprocessed data using pipelines (handling missing values, encoding, and transformations).
+	- Trained a baseline Linear Regression model as a benchmark.
+  - Optimized ensemble models (e.g., Random Forest, Gradient Boosting) using RandomizedSearchCV with cross-validation.
+	- Evaluated model performance using R² and Mean Squared Error (MSE) metrics. 
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dsml-2024-esemsc-mi720)
 - **Notebooks**: Q1.ipynb, Q1_answer.ipynb.
 
 ### 4. **Predicting Passenger Transportation**
-- **Description**: Build a classification problrm to predict whether passengers were transported based on personal and travel-related data. Model selection and threshold tuning. Use AUC-ROC and Precision-Recall to evaluate models.
-- **Technologies**: Python, Pandas, Scikit-learn, Matplotlib, 
+- **Description**:
+  - Developed a classification model to predict whether passengers were successfully transported based on personal and travel-related features.
+  - The project included model comparison, threshold tuning, and error analysis. 
+- **Technologies**: Python, Pandas, Scikit-learn, Matplotlib.
+- **Data**: Age, VIP, RoomService, FoodCourt, ShoppingMall, Cabin, HomePlanet, Destination, CryoSleep, Transported (True/False).
+- **Approach**:
+  - Compared Logistic Regression and K-Nearest Neighbors (KNN) models.
+	- Tuned hyperparameters using RandomizedSearchCV with cross-validation.
+  - Evaluated performance using Accuracy, Precision, Recall, F1-Score, and AUC-ROC.
+	- Adjusted thresholds to minimize error in two scenarios:
+    - Balanced trade-off between False Positives (FP) and False Negatives (FN).
+    - Prioritized minimizing False Negatives.
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dsml-2024-esemsc-mi720)
 - **Notebooks**: Q2.ipynb, Q2_answer.ipynb.
 
