@@ -1,2 +1,9 @@
-title: Mencia Izaga 
+title: Mencia Izaga
+description: >-
+  Welcome to my portfolio! This space showcases data science and machine learning projects completed during my academic journey and free time.
+
+# Theme configuration
 theme: jekyll-theme-minimal
+
+# Custom CSS to remove sidebar and blank space
+custom_css: assets/style.css
