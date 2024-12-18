@@ -16,8 +16,8 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   - Corrupted MRI images stored in test_set.npy (100 images of size 64x64 pixels).
 - **Approach**:
   - Designed a neural network to learn from artificially-generated datasets.
-  - Implemented preprocessing pipelines to load and clean MRI image data.
-  - Trained and evaluated the a U-net architecture on 64x64 pixel MRI images.
+  - Implemented preprocessing pipelines to apply corruption mask to clean MRI image data for training. 
+  - Trained and evaluated a U-net architecture.
 - **Results**:
   - Successfully reconstructed missing portions of MRI images:
   
