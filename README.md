@@ -28,14 +28,30 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 ---
 
 ### 2. **Time Series Weather Data Imputation**
-- **Description**: Recover missing weather measurements using a neural network. Data includes weather variables recorded daily. Models are trained on corrupted and clean datasets split by decade. Decades are not sequential or related to one another. 
-- **Technologies**: Python, LSTM/Transformer, Pandas, TensorFlow.
+- **Description**:
+  - Developed a neural network to recover missing daily weather measurements from sequential time-series data.
+  - Addressed corrupted weather data over multiple decades, using both clean and corrupted datasets for training and testing.
+- **Technologies**: Python, LSTM/Transformer models, Pandas, TensorFlow, Matplotlib, Seaborn.
 - **Data**:
-  - training_set/ (Corrupted + Clean data for three decades).
-  - test_set.csv (Corrupted data for one final decade).
+  - ***Training***:  
+    - training_set_0.csv, training_set_1.csv, training_set_2.csv (corrupted).
+    - training_set_0_nogaps.csv, training_set_1_nogaps.csv, training_set_2_nogaps.csv (clean versions).
+  - ***Testing***:
+    - test_set.csv (corrupted time-series data for one unseen decade).
+  - ***Variables***:
+    - cloud_cover, sunshine, global_radiation, max_temp, mean_temp, min_temp, precipitation, pressure.
+- **Approach**:
+  -Exploratory Data Analysis (EDA)to visualize time-series trends and compare clean vs. corrupted data.
+    - Created line plots for each variable across 365 days to highlight gaps.
+    - Generated histograms to show distribution shifts due to corruption.
+  - Preprocessing pipeline to handle differently distributed data for model stability.
+  - Investigate several models like RNNS, LSTMs and Transformer architectures for time-series data imputation. LSTM model was ultimately selected due to time constraints to tune the highly parameter-sensitive transformer. 
+	- Implemented an LSTM-based neural network to capture temporal dependencies and impute missing measurements.
+	- Trained the model using corrupted inputs and clean targets.
+	- Validated on unseen test data to evaluate recovery performance.
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-2-esemsc-mi720)
-- **Results**: Modeled pathways for efficient fuel generation with optimized yield.
-- **Visuals**: [Add dashboard link or images]
+- **Results**:
+  - Successfully imputed missing values across all weather variables with high accuracy. 
 
 ---
 
