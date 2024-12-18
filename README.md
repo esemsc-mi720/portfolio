@@ -95,12 +95,3 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 
 ---
 
-## 📂 **Free-Time Personal Projects**
-
-### 1. **Streamlit Dashboard for Environmental Analysis**
-- **Description**: Interactive dashboard for visualizing environmental parameters.  
-- **Technologies**: Streamlit, Python, Plotly.  
-- **Demo**: [Link to Streamlit app](https://link-to-demo)
-
----
-
