@@ -47,10 +47,10 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   - Implemented an LSTM-based neural network to capture temporal dependencies and impute missing measurements.
   - Trained the model using corrupted inputs and clean targets.
   - Validated on unseen test data to evaluate recovery performance.
-- **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-2-esemsc-mi720)
 - **Results**:
 ![Time Series Missing Values Imputation - Before and After](images/cloud_cover_time_series.png)
 
+- **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-2-esemsc-mi720)
 ---
 
 ### 3. **Predicting Significant Wave Heights**
