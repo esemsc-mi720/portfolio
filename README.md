@@ -20,7 +20,6 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   - Evaluated model performance on unseen corrupted MRI images to measure reconstruction accuracy.
 - **Results**:  
 <img src="images/mri_imputation.png" alt="Corrupted Input vs Predicted Output" width="800">
-
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-1-esemsc-mi720)
 
 ---
@@ -39,18 +38,16 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   - ***Variables***:
     - cloud_cover, sunshine, global_radiation, max_temp, mean_temp, min_temp, precipitation, pressure.
 - **Approach**:
-  -Exploratory Data Analysis (EDA)to visualize time-series trends and compare clean vs. corrupted data.
+  - Exploratory Data Analysis (EDA)to visualize time-series trends and compare clean vs. corrupted data.
     - Created line plots for each variable across 365 days to highlight gaps.
     - Generated histograms to show distribution shifts due to corruption.
   - Preprocessing pipeline to handle differently distributed data for model stability.
-  - Investigate several models like RNNS, LSTMs and Transformer architectures for time-series data imputation. LSTM model was ultimately selected due to time constraints to tune the highly parameter-sensitive transformer. 
-	- Implemented an LSTM-based neural network to capture temporal dependencies and impute missing measurements.
-	- Trained the model using corrupted inputs and clean targets.
-	- Validated on unseen test data to evaluate recovery performance.
+  - Investigated several models like RNNS, LSTMs and Transformer architectures for time-series data imputation. LSTM model was ultimately selected due to time constraints to tune the highly parameter-sensitive transformer. 
+  - Implemented an LSTM-based neural network to capture temporal dependencies and impute missing measurements.
+  - Trained the model using corrupted inputs and clean targets.
+  - Validated on unseen test data to evaluate recovery performance.
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-2-esemsc-mi720)
 - **Results**:
-  - Successfully imputed missing values across all weather variables with high accuracy:
-
 ![Time Series Missing Values Imputation - Before and After](images/cloud_cover_time_series.png)
 
 ---
