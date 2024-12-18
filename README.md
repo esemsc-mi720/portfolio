@@ -9,7 +9,7 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 ### 1. **Imputing Missing Portions of MRI Scans**
 - **Description**:
   - Developed a neural network architecture to recover missing portions of MRI images of human heads.
-	- This addressed a key imputation problem in magnetic resonance imaging (MRI) where incomplete scans prevent detailed patient analysis. 
+  - This addressed a key imputation problem in magnetic resonance imaging (MRI) where incomplete scans prevent detailed patient analysis. 
 - **Technologies**: Python, PyTorch, NumPy, Matplotlib
 - **Data**:
   - Artificially generated realistic MRI images for model training (using a pre-trained generative model).
