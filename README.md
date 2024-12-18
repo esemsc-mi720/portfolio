@@ -7,14 +7,21 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 ## 📂 **Academic Projects**
 
 ### 1. **Imputing Missing Portions of MRI Scans**
-- **Description**: Recover missing portions of MRI images of human heads using a neural network architecture.
-- **Technologies**: Python, Pytorch
+- **Description**:
+  - Developed a neural network architecture to recover missing portions of MRI images of human heads.
+	- This addressed a key imputation problem in magnetic resonance imaging (MRI) where incomplete scans prevent detailed patient analysis. 
+- **Technologies**: Python, PyTorch, NumPy, Matplotlib
 - **Data**:
-  - generated image samples from a diffusion model for image generation.
-  - test_set.npy (Images of 64x64 pixels).
+  - Artificially generated realistic MRI images for model training (using a pre-trained generative model).
+  - Corrupted MRI images stored in test_set.npy (100 images of size 64x64 pixels).
+- **Approach**:
+  - Designed a neural network to learn from artificially-generated datasets.
+  - Implemented preprocessing pipelines to load and clean MRI image data.
+  - Trained and evaluated the a U-net architecture on 64x64 pixel MRI images.
+- **Results**:
+	- Train Loss: 0.0003, Val Loss: 0.0003 with MSE score.
+  - Successfully reconstructed missing portions of MRI images. 
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-1-esemsc-mi720)
-- **Results**: Achieved a 10% improvement in grid performance metrics.
-- **Visuals**: [Add link to image or interactive dashboard]
 
 ---
 
