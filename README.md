@@ -51,7 +51,9 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 	- Validated on unseen test data to evaluate recovery performance.
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-2-esemsc-mi720)
 - **Results**:
-  - Successfully imputed missing values across all weather variables with high accuracy. 
+  - Successfully imputed missing values across all weather variables with high accuracy:
+
+![Time Series Missing Values Imputation - Before and After](images/cloud_cover_time_series.png)
 
 ---
 
