@@ -12,16 +12,15 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   - This addressed a key imputation problem in magnetic resonance imaging (MRI) where incomplete scans prevent detailed patient analysis. 
 - **Technologies**: Python, PyTorch, NumPy, Matplotlib
 - **Data**:
-  - Artificially generated realistic MRI images for model training (using a pre-trained generative model).
-  - Corrupted MRI images stored in test_set.npy (100 images of size 64x64 pixels).
+  - ***Training***:Artificially generated realistic MRI images for model training (using a pre-trained generative model).
+  - ***Testing***: Corrupted MRI images stored in test_set.npy (100 images of size 64x64 pixels).
 - **Approach**:
-  - Designed a neural network to learn from artificially-generated datasets.
-  - Implemented preprocessing pipelines to apply corruption mask to clean MRI image data for training. 
-  - Trained and evaluated a U-net architecture.
-- **Results**:
-  - Successfully reconstructed missing portions of MRI images:
-  
+  - Created preprocessing pipelines to apply corruption masks to clean MRI images for supervised learning.
+  - Designed and trained a U-Net architecture on the corrupted and clean MRI images.
+  - Evaluated model performance on unseen corrupted MRI images to measure reconstruction accuracy.
+- **Results**:  
 ![MRI Imputation - Before and After](images/mri_imputation.png)
+<img src="images/mri_imputation.png" alt="Corrupted Input vs Predicted Output" width="400">
 
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-1-esemsc-mi720)
 
