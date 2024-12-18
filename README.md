@@ -19,8 +19,11 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   - Implemented preprocessing pipelines to load and clean MRI image data.
   - Trained and evaluated the a U-net architecture on 64x64 pixel MRI images.
 - **Results**:
-	- Train Loss: 0.0003, Val Loss: 0.0003 with MSE score.
-  - Successfully reconstructed missing portions of MRI images. 
+  - Train Loss: 0.0003, Val Loss: 0.0003 with MSE score.
+  - Successfully reconstructed missing portions of MRI images.
+  - 
+![MRI Imputation - Before and After](images/mri_imputation.png)
+
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-1-esemsc-mi720)
 
 ---
