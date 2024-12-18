@@ -19,8 +19,7 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   - Designed and trained a U-Net architecture on the corrupted and clean MRI images.
   - Evaluated model performance on unseen corrupted MRI images to measure reconstruction accuracy.
 - **Results**:  
-![MRI Imputation - Before and After](images/mri_imputation.png)
-<img src="images/mri_imputation.png" alt="Corrupted Input vs Predicted Output" width="400">
+<img src="images/mri_imputation.png" alt="Corrupted Input vs Predicted Output" width="800">
 
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-1-esemsc-mi720)
 
