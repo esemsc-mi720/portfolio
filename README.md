@@ -51,6 +51,7 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 ![Time Series Missing Values Imputation - Before and After](images/cloud_cover_time_series.png)
 
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dl-module-coursework-2-esemsc-mi720)
+
 ---
 
 ### 3. **Predicting Significant Wave Heights**
@@ -66,6 +67,7 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 	- Evaluated model performance using R² and Mean Squared Error (MSE) metrics. 
 - **Repository**: [GitHub Link](https://github.com/ese-ada-lovelace-2024/dsml-2024-esemsc-mi720)
 - **Notebooks**: Q1.ipynb, Q1_answer.ipynb.
+
 --- 
 
 ### 4. **Predicting Passenger Transportation**
