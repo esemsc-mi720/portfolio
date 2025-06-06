@@ -122,5 +122,5 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   ![Forecasted vs True Prices Part 2](images/BESS_2.png) 
 
 - **Repository**: [GitHub Link](https://github.com/esemsc-mi720/Frequency_Response_Forescasting_Group_7)
-- ***Notebooks**: Group_7_final.ipynb
+- **Notebooks**: Group_7_final.ipynb
 
