@@ -97,4 +97,25 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 
 ## 🏅 **Extracurricular Projects**
 
+### 5. **Forecasting Frequency Response Prices in the GB Electricity Market**
+- **Description**:  
+  - Developed an ensemble model to forecast day-ahead Dynamic Frequency Response (DFR) prices and optimise Battery Energy Storage System (BESS) bidding strategies.  
+  - Addressed market volatility caused by the November 2023 Enduring Auction Capability (EAC) regime change in the UK electricity market.  
+
+- **Technologies**: Python, XGBoost, LSTM, Ridge Regression, Scikit-learn, PyTorch, Pandas, Matplotlib  
+
+- **Data**:  
+  - Time-series data from NESO including: ancillary service volumes and prices, day-ahead EPEX prices, generation mix, frequency metrics, and MEL (spare capacity).  
+  - Forecast targets: six DFR price series segmented by market (e.g., DR-H, DM-L).  
+
+- **Approach**:  
+  - Created lagging indicators and engineered volatility, frequency deviation, and energy source ratio features.  
+  - Trained and tuned ML models (XGBoost, Extra Trees) and DL models (LSTM).  
+  - Designed three ensemble strategies, including a learned Ridge regressor that combined ML and DL predictions.  
+
+- **Results**:  
+  - Best ensemble model achieved **RMSE = 0.67 £/MW/h** and **R² = 0.425**, outperforming individual models.  
+  - Demonstrated improved robustness in low- and high-volatility regimes, with DR-H market predictions reaching **R² = 0.674**.  
+
+- **Repository**: *https://github.com/esemsc-mi720/Frequency_Response_Forescasting_Group_7*
 
