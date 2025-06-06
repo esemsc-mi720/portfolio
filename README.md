@@ -115,8 +115,11 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 
 - **Results**:  
   - Best ensemble model achieved **RMSE = 0.67 £/MW/h** and **R² = 0.425**, outperforming individual models.  
-  - Demonstrated improved robustness in low- and high-volatility regimes, with DR-H market predictions reaching **R² = 0.674**.  
+  - Demonstrated improved robustness in low- and high-volatility regimes, with DR-H market predictions reaching **R² = 0.674**.
+
+ - **Results**:  
+![Time Series Missing Values Imputation - Before and After](images/cloud_cover_time_series.png)
 
 - **Repository**: [GitHub Link](https://github.com/esemsc-mi720/Frequency_Response_Forescasting_Group_7)
-- ****Notebooks**: Group_7_final.ipynb
+- ***Notebooks**: Group_7_final.ipynb
 
