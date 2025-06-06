@@ -110,12 +110,13 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 
 - **Approach**:  
   - Created lagging indicators and engineered volatility, frequency deviation, and energy source ratio features.  
-  - Trained and tuned ML models (XGBoost, Extra Trees) and DL models (LSTM).  
+  - Trained and tuned various architectures. Best ML model: XGBoost, Extra Trees. Best DL model: LSTM.  
   - Designed three ensemble strategies, including a learned Ridge regressor that combined ML and DL predictions.  
 
 - **Results**:  
   - Best ensemble model achieved **RMSE = 0.67 £/MW/h** and **R² = 0.425**, outperforming individual models.  
   - Demonstrated improved robustness in low- and high-volatility regimes, with DR-H market predictions reaching **R² = 0.674**.  
 
-- **Repository**: *https://github.com/esemsc-mi720/Frequency_Response_Forescasting_Group_7*
+- **Repository**: [GitHub Link](https://github.com/esemsc-mi720/Frequency_Response_Forescasting_Group_7)
+- ****Notebooks**: Group_7_final.ipynb
 
