@@ -1,10 +1,10 @@
-# 🌟 **Data Science & Machine Learning Projects Portfolio**
+#  ** Data Science & Machine Learning Projects Portfolio**
 
 Welcome to my portfolio! This space showcases data science and machine learning projects completed during my academic journey and free time. Since it has only been 2 months since I started my data science and machine learning journey, I plan on adding some more projects soon. 
 
 ---
 
-## 📂 **Academic Projects**
+## 📚 **Academic Projects**
 
 ### 1. **Imputing Missing Portions of MRI Scans**
 - **Description**:  
@@ -95,4 +95,4 @@ Welcome to my portfolio! This space showcases data science and machine learning 
 
 ---
 
-## 📂 **Extracurricular Projects**
+## 🏅 **Extracurricular Projects**
