@@ -118,7 +118,8 @@ Welcome to my portfolio! This space showcases data science and machine learning 
   - Demonstrated improved robustness in low- and high-volatility regimes, with DR-H market predictions reaching **R² = 0.674**.
 
  - **Results**:  
-![Time Series Missing Values Imputation - Before and After](images/cloud_cover_time_series.png)
+  ![BESS_1.png]
+  ![BESS_2.png]
 
 - **Repository**: [GitHub Link](https://github.com/esemsc-mi720/Frequency_Response_Forescasting_Group_7)
 - ***Notebooks**: Group_7_final.ipynb
